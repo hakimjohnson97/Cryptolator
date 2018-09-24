@@ -2,7 +2,7 @@ Cryptolator
 
 ![](/screenshot.png?raw=true)
 
-Cryptolator is an application that encrypts and decrypts text messages and files using a given mask. It does this through simple addition encryption. It adds each byte of the text/file with the corresponding byte of the mask. The result is the encrypted code. To decrypt it simply subtracts the corresponding byte of the mask with each byte of the text/file. This allows two people to communicate privately providing both have access to the mask. The mask could be a photo they both have or a random file.
+Cryptolator is an application that encrypts and decrypts text messages and files using a given mask. It does this through simple addition encryption. It adds each byte of the text/file with the corresponding byte of the mask. The result is the encrypted code. To decrypt, it simply subtracts the corresponding byte of the mask with each byte of the text/file. This allows two people to communicate privately providing both have access to the mask. The mask could be a photo or a random file they both have.
 
 ********************************************************************************
 INSTALLING
@@ -11,6 +11,9 @@ This application uses Qt which will need to be installed to compile this project
 
 Windows:
 
+You may use the binaries located in /bin or compile it yourself.
+
+To compile:
 First, you must download and install Qt from http://qt-project.org/downloads
 Note: This is a very large library so patience and perseverance are in order.
 
