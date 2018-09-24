@@ -1,5 +1,7 @@
 Cryptolator
 
+![](/screenshot.png?raw=true)
+
 Cryptolator is an application that encrypts and decrypts text messages and files using a given mask. It does this through simple addition encryption. It adds each byte of the text/file with the corresponding byte of the mask. The result is the encrypted code. To decrypt it simply subtracts the corresponding byte of the mask with each byte of the text/file. This allows two people to communicate privately providing both have access to the mask. The mask could be a photo they both have or a random file.
 
 ********************************************************************************
